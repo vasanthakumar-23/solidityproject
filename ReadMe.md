@@ -42,6 +42,28 @@ Steps:
 13. Deploy your contract to the Ethereum blockchain using a wallet such as MetaMask or MyEtherWallet.
 
 14. Interact with your token by sending and receiving transactions.
+15. 'HERE IS MY CODE FOR CREATING OWN TOKEN"
+16. 
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+contract MyToken{
+    string public tokenName="THUNDER";
+    string public tokenAbbrevation="THN";
+    uint public totalsupply=0;
+     
+     mapping(address=>uint) public balances;
+     function mint(address _address,uint _value)public{
+         totalsupply+=_value;
+         balances[_address]+=_value;
+     }
+     function burn(address _address,uint _value)public{
+         if(balances[_address]>=_value){
+             totalsupply-=_value;
+         balances[_address]-=_value;
+
+         }
+     }
+}
 
 Conclusion:
 Creating your own token in Solidity can be a great way to learn about smart contracts and the Ethereum blockchain. With this guide, you should be able to create a basic token that can be used for a variety of purposes. As you become more comfortable with Solidity, you can add more features to your token, such as a voting system or staking mechanism. Happy coding!
