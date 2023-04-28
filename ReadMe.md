@@ -1,11 +1,11 @@
+# CREATING MY OWN TOKEN
 
-
-Introduction:
+# DESCRIPTION
 Solidity is a programming language that is used to develop smart contracts on the Ethereum blockchain. It is a contract-oriented, high-level programming language that is influenced by C++, Python, and JavaScript.
 
 This guide will take you through the process of creating your own token in Solidity. This token can be used for a variety of purposes, such as a reward system for a decentralized application, or as a means of exchange in a decentralized exchange.
 
-Prerequisites:
+# Prerequisites:
 Before you can create your own token in Solidity, you will need the following:
 
 - A basic understanding of programming concepts, such as variables, functions, and data types
@@ -13,7 +13,7 @@ Before you can create your own token in Solidity, you will need the following:
 - An Ethereum wallet
 - A code editor
 
-Steps:
+# GETTING STARTED
 
 1. Open your code editor and create a new file. Save it with a .sol extension.
 
@@ -43,7 +43,9 @@ Steps:
 
 14. Interact with your token by sending and receiving transactions.
 15. 'HERE IS MY CODE FOR CREATING OWN TOKEN"
-16. 
+# EXECUTING PROGRAM
+```
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 contract MyToken{
@@ -65,5 +67,9 @@ contract MyToken{
      }
 }
 
-Conclusion:
-Creating your own token in Solidity can be a great way to learn about smart contracts and the Ethereum blockchain. With this guide, you should be able to create a basic token that can be used for a variety of purposes. As you become more comfortable with Solidity, you can add more features to your token, such as a voting system or staking mechanism. Happy coding!
+```
+
+# AUTHOR
+K.VASANTHAKUMAR
+# LICENCED
+This project is licensed under the MIT License - see the LICENSE.md file for details
